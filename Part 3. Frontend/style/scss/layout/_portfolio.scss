@@ -1,0 +1,17 @@
+.bloсk-portfolio {
+  .bloсk-portfolio__title {
+    padding: 112px 0 47px 0;
+    font-family: $GB;
+    font-size: $sizeTitle;
+  }
+  img {
+    height: 510px;
+    margin: 0 0 44px 0;
+  }
+  .bloсk-portfolio__text {
+    font-family: $GM;
+    font-size: $sizeText;
+    padding-bottom: 99px;
+    text-decoration: underline;
+  }
+}

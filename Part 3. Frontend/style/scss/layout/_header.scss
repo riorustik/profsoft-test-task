@@ -1,0 +1,49 @@
+.header {
+  @extend %bodyWidth;
+  .hidden-bar {
+    display: none;
+    width: 0;
+    height: 0;
+    img {
+      display: none;
+    }
+    .menu-top__links-media {
+      display: none;
+
+      li {
+        display: none;
+        margin-bottom: 68px;
+      }
+      a {
+        display: none;
+      }
+    }
+    .bloсk-home__lang-media {
+      display: none;
+    }
+  }
+  .menu-top {
+    margin: 30px 0 35px 0;
+    .menu-top__links {
+      @include flex(flex, space-between);
+      list-style-type: none;
+      a {
+        color: $text;
+        font-size: $sizeText;
+        font-family: $GB;
+        transition: 0.3s;
+        &:hover {
+          transition: 0.3s;
+          color: $black;
+        }
+      }
+    }
+  }
+  .hr-line {
+    width: 99.5%;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid $text;
+  }
+}

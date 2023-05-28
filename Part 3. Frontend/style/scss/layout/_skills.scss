@@ -1,0 +1,41 @@
+.bloсk-skills {
+  .bloсk-skills__title {
+    font-family: $GB;
+    font-size: $sizeTitle;
+    margin-bottom: 69px;
+  }
+  p {
+    font-family: $GM;
+    font-size: $sizeText;
+    margin-bottom: 84px;
+  }
+  .skills {
+    @include flex(flex, space-between);
+
+    img {
+      height: 88px;
+    }
+    p {
+      font-family: $GB;
+      font-size: 14px;
+      margin: 24px 0 40px 0;
+      color: $text;
+    }
+    .rating-result {
+      width: 200px;
+      span {
+        padding: 0;
+        font-size: 26px;
+        margin: 0 3px;
+        line-height: 1;
+        color: $light-grey;
+        &:before {
+          content: "★";
+        }
+        &.active {
+          color: $black;
+        }
+      }
+    }
+  }
+}

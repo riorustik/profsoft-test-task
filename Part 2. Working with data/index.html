@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Код запросов</h1>
+    <pre>
+        -- №1
+            SELECT
+                R.name
+            FROM
+                Restaurants AS R
+                JOIN Employees AS E ON R.id = E.restaurantId
+                JOIN Positions AS P ON P.id = E.positionId
+            WHERE
+                P.title = 'waiter'
+            GROUP BY
+                R.name
+            HAVING
+                COUNT(E.positionId) >= 2
+            ORDER BY
+                R.name DESC
+
+        -- №2
+            INSERT INTO
+                Employees (
+                    restaurantId,
+                    firstname,
+                    lastname,
+                    phone,
+                    positionId
+                )
+            VALUES
+                (1303, 'Rustam', 'Kusiapkulov', '89658788851', '4')
+    </pre>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.bloсk-about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  // height: 506px;
+  .bloсk-about__title {
+    margin: 0 0 17px 0;
+    font-family: $GB;
+    font-size: $sizeTitle;
+    cursor: pointer;
+  }
+  p {
+    font-family: $GM;
+    font-size: $sizeText;
+  }
+  .bloсk-about__test-eng {
+    display: block;
+  }
+  .bloсk-about__test-hidden {
+    display: none;
+  }
+  .bloсk-about__task-update-time {
+    margin: 40px 0 0 0;
+    font-size: $sizeText;
+  }
+}

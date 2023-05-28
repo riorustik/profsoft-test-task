@@ -1,0 +1,46 @@
+.bloсk-home {
+  @include flex(flex, space-between);
+  text-align: initial;
+  position: relative;
+  align-items: flex-end;
+  margin-top: 35px;
+  h1 {
+    width: 45%;
+    font-size: 47.3392px;
+    font-family: $GB;
+  }
+  .bloсk-home__text {
+    width: 30%;
+    font-family: $GM;
+    line-height: 22px;
+    font-size: $sizeText;
+    padding-bottom: 15px;
+  }
+  .bloсk-home-bar-media {
+    display: none;
+  }
+  .bloсk-home__clean {
+    width: 25%;
+  }
+  .bloсk-home__lang {
+    position: absolute;
+    color: $text;
+    font-family: $GB;
+    font-size: 16px;
+    transform: rotate(-90deg);
+    bottom: 45px;
+    right: -10px;
+    span {
+      color: $black;
+    }
+  }
+}
+.bloсk-home-image {
+  height: auto;
+  width: 100%;
+  max-width: 1920px;
+  margin-top: 40px;
+}
+.bloсk-home-image-media {
+  display: none;
+}
