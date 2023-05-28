@@ -2,7 +2,7 @@
 ### Школа разработки ПрофСофт 2023  
 ---
 ###### Демонстрация
-<h3><a href="https://riorustik.github.io/profsoft-test-task/">GitHub Pages</a></h3>
+  <h3><a href="https://riorustik.github.io/profsoft-test-task/">GitHub Pages</a></h3>
 
 ---
 
