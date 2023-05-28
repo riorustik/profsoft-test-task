@@ -11,4 +11,4 @@
         Задание №3 реализовано и расположено в каталоге по маршруту "Part 3. Frontend\scripts\task_third".  
         Результат выполнения задания №3 представлен в консоли на  странице сверстанного сайта.
 
-<a href="https://riorustik.github.io/profsoft-test-task/">###GitHub Pages###</a> 
+###<a href="https://riorustik.github.io/profsoft-test-task/">GitHub Pages</a> 
