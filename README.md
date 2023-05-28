@@ -1,7 +1,7 @@
 # Тестовое задание для направления «Frontend-разработчик»  
 ### Школа разработки ПрофСофт 2023  
 ---
-        <h3><a href="https://riorustik.github.io/profsoft-test-task/">GitHub Pages</a></h3>
+<h3><a href="https://riorustik.github.io/profsoft-test-task/">GitHub Pages</a></h3>
 ---
 
 ###### Часть 1. Алгоритмы  
