@@ -145,7 +145,7 @@ VALUES
 > Задание №3 реализовано и расположено в каталоге по маршруту "Part 3. Frontend\scripts\task_third".  
 > Результат выполнения задания №3 представлен в консоли на  странице сверстанного сайта.
 
-Асинхронный запрос на выборку данных
+###### Асинхронный запрос на выборку данных
 ```
 async function request() {
   let response = await fetch("https://jsonplaceholder.typicode.com/posts", {
